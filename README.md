@@ -40,17 +40,19 @@ bash <(wget --no-check-certificate -qO-  https://git.io/lotServerInstall.sh) ins
  ~~（脚本内置许可证的接口为我自己的接口了，有效期9999年那种 笑）~~
  > 常规自动安装（推荐，自动检测内核）
 ```
-bash <(wget --no-check-certificate -qO-  https://git.io/lotServerInstall.sh) install
+bash <(wget --no-check-certificate -qO- https://github.com/cmz0228/lotServer-1/raw/master/lotServerInstall.sh) install
+
 ```
 
  > 指定内核安装
 ```
-bash <(wget --no-check-certificate -qO-  https://git.io/lotServerInstall.sh) install <Kernel Version>
+bash <(wget --no-check-certificate -qO- https://github.com/cmz0228/lotServer-1/raw/master/lotServerInstall.sh) install <Kernel Version>
+
 ```
 
  > 完全卸载
 ```
-bash <(wget --no-check-certificate -qO-  https://git.io/lotServerInstall.sh) uninstall
+bash <(wget --no-check-certificate -qO-  https://github.com/cmz0228/lotServer-1/raw/master/lotServerInstall.sh) uninstall
 ```
 ***
 ***
